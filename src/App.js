@@ -25,7 +25,7 @@ const reducer = (state = initial_state, action) => {
 };
 // REDUX: Store
 
-const store = createStore(reducer);
+const store = createStore({reducer});
 
 
 // App Component with Provider on BoardContainer
